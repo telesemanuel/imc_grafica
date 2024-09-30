@@ -32,7 +32,7 @@ def main(page: ft.Page):
     nome = ft.TextField(label="Nome:", on_submit=pular_peso)
     peso = ft.TextField(label="Peso (kg):", on_submit=pular_altura)
     altura = ft.TextField(label="Altura (m):", on_submit=calcular)
-    btn = ft.ElevatedButton("Calcular IMC", on_click=calcular)
+    btn = ft.ElevatedButton("Calcular IMC", color="Blue", on_click=calcular)
     result = ft.Text(size=30)
 
     page.add(
